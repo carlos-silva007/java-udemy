@@ -1,0 +1,26 @@
+package controle;
+
+import java.util.Scanner;
+
+import javax.swing.JOptionPane;
+
+public class DesafioDiasSemana {
+
+	public static void main(String[] args) {
+		
+		Scanner entrada = new Scanner(System.in);
+		
+		String valor = JOptionPane.showInputDialog("Informe o numero:");
+		
+		int numero = Integer.parseInt(valor);
+		
+		
+		
+		
+		
+		
+		
+		
+		entrada.close();
+	}
+}

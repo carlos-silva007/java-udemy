@@ -1,0 +1,18 @@
+package fundamentos;
+
+public class ConversaoTipoNumericos {
+
+	public static void main(String[] args) {
+		
+		double a = 1;   //implicita
+		System.out.println(a);
+		
+		float b = (float) 1.12323232338;  //expplicita com perda de informacao
+		System.out.println(b);
+		
+				
+		
+		
+		
+	}
+}
