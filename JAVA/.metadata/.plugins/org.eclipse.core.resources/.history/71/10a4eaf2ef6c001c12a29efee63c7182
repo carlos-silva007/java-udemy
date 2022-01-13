@@ -1,0 +1,29 @@
+package colecoes;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class Mapa {
+	public static void main(String[] args) {
+		
+		Map<Integer, String> usuarios = new HashMap<Integer, String>(); 
+		
+		//adiciona usando .put porem ele substitui com ultimo valor na msm id
+		usuarios.put(1, "Carlos");
+		usuarios.put(2, "Ricardo");
+		usuarios.put(3, "Ronaldo");
+		usuarios.put(4, "Dayana");
+		usuarios.put(50, "Gustavo");
+		
+		System.out.println(usuarios.size());  //quantas chaves tem
+		System.out.println(usuarios.isEmpty()); //pergunta se esta vazio
+		System.out.println(usuarios.size());
+		
+		//.keySet mostra o conjunto das chaves
+		System.out.println(usuarios.keySet());
+		
+		System.out.println(usuarios.values()); //vai mostras os valores dentro
+		System.out.println(usuarios.entrySet()); //mostra as chaves e os valores juntos
+	}
+
+}
